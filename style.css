@@ -34,17 +34,21 @@ header {
     text-align: center;
 }
 
+/* Navbar */
 .navbar {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center; /* Center the navigation links */
+    align-items: center; /* Vertically align items */
     padding: 10px 0;
+    background-color: #0078d4; /* Optional: Navbar background color */
 }
 
 .nav-links {
     list-style: none;
     display: flex;
-    gap: 15px;
+    gap: 20px; /* Add spacing between the links */
+    margin: 0;
+    padding: 0;
 }
 
 .nav-links li {
@@ -53,8 +57,11 @@ header {
 
 .nav-links a {
     color: white;
+    text-decoration: none;
     font-weight: 500;
+    font-size: 1rem;
 }
+
 
 .hero {
     margin-top: 20px;
